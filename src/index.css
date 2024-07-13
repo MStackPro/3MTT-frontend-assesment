@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Search input  */
+.search-input {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #007acc;
+  width: 10rem;
+}
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #007acc;
+}
+
+/* Repository List Styles */
+.repository-list {
+  list-style: none;
+  padding: 0;
+}
+
+.repository-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.repository-item a {
+  font-weight: 600;
+  color: #007acc;
+  font-size: 0.9rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 3rem;
+}
+
+/* button */
+button {
+  background: #007acc;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #007acc;
+}
+button:hover {
+  background: transparent;
+  border: 1px solid #007acc;
+  color: #007acc;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none; 
+}
+
+/* Error Styles */
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* 404 Styles */
+.not-found {
+  text-align: center;
+}
